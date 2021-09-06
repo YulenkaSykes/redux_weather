@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+body{
+  background-image: linear-gradient(90deg, #1479d6, #e6c36d );
+  font-family: 'Allison', cursive;
+}
+.wrapper{
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  margin-top: 7%;
+}
+.input{
+  border: 1px solid rgb(69, 69, 233);
+  border-radius: 12px;
+  height: 20px;
+  width: 30%;
+  font-family: 'Allison', cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+.btn{
+  border: 1px solid rgb(69, 69, 233);
+  border-radius: 50%;
+  background-color: rgb(100, 221, 237);
+  font-family: 'Allison', cursive;
+  font-size: 30px;
+}
+.card_weather{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 10%;
+  background-image: linear-gradient(90deg,#e6c36d, #1479d6 );
+  background-color: darksalmon;
+  margin: 1px 10px 10px 80px;
+}
+.card_text{
+  font-size: 30px;
+  align-items: flex-start;
+}
+.clouds{
+  margin-bottom: 70px;
+  font-size: 45px;
+}
