@@ -25,8 +25,10 @@ const Weather = () => {
           className="input"
           type="text"
           onChange={(e) => dispatch({ type: "value", payload: e.target.value })}
+          // если в реакте то payload: {value:e.target.value}
         />
         <button className="btn" onClick={() => getWeather(value)}>
+          {/* data. value  in react */}
           Click
         </button>
       </div>
